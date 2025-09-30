@@ -1,0 +1,78 @@
+/* styles/globals.css */
+
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background and text color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a; /* dark navy */
+  color: #f1f5f9; /* light text */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #38bdf8; /* cyan accent */
+}
+
+/* Review cards */
+.review-card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+
+}@tailwind base;
+@tailwind components;
+@tailwind utilities;/* styles/globals.css */
+
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background and text color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a; /* dark navy */
+  color: #f1f5f9; /* light text */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #38bdf8; /* cyan accent */
+}
+
+/* Review cards */
+.review-card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+  background: #38bdf8;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
